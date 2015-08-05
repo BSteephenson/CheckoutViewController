@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CheckoutViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CheckoutViewControllerDelegate>
 
+- (IBAction)clickedCheckoutButton:(id)sender;
 
 @end
 
